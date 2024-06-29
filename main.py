@@ -2,7 +2,7 @@ def main():
     iternum = 0
     N = int(input('Enter the value for N: '))
     for i in range(N):
-        for j in range(i, N):
+        for j in range(0, i):
             print(f'({i}, {j})', end=' ')
             iternum += 1
         print()
